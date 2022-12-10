@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/*common style*/
+.wrapper{
+    font-family: 'Roboto', sans-serif;
+    width: 1280px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+/*header style*/
+.title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 94px;
+    color: #000000;
+    margin: 63px 0 40px;
+}
+
+.title__span{
+    color: #14b9d5;
+
+}
+
+.header__nav{
+    background: #35444F;
+}
+
+.header__list{
+    display: flex;
+    justify-content: center;
+}
+
+.header__item--border{
+    border-left: solid 1px #FFFFFF;
+}
+
+.header__item{
+    padding: 26px 38px 19px 38px;
+    border-right: 1px solid #FFFFFF;
+}
+
+.header__item:hover{
+    background-color: #222F3A;
+}
+
+.header__link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+/*MAIN*/
+
+main{
+  display: flex;
+    margin: 48px 0 54px;
+    column-gap: 52px;
+    justify-content: space-between;
+}
+
+.aside__item:hover{
+    background-color: #DBDBDB;
+    padding-left: 20px;
+}
+
+.aside{
+    border: 1px solid #000000;
+    width: 27%;
+    max-height: 399px;
+}
+.aside__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 27px;
+    color: #485863;
+    padding: 26px 0 26px 44px;
+    display: inline-block;
+}
+
+.img__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+;
+}
+
+.img{
+    padding: 75px 0;
+}
+
+.article{
+    width: 69%;
+}
+
+.article__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2C2C2C;
+    margin-top: 37px;
+}
+
+/*FOOTER*/
+
+.footer__text{
+    background-color: rgba(99, 105, 110, 0.48);
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+
+.footer__list{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__item{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 28px;
+    display: inline-block;
+    padding: 26px 10px;
+    color: #000000;
+}
+
+.footer__item:hover{
+    color: #14b9d5;
+    text-decoration: underline;
+}
+
+.footer__copyright{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 28px;
+    color: #000000;
+    padding: 26px 0;
+}
+
+.btn{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+}
